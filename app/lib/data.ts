@@ -15,7 +15,7 @@ export async function fetchRevenue() {
   try {
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
-
+    // Chapter 8 - https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
     // console.log('Fetching revenue data...');
     // await new Promise((resolve) => setTimeout(resolve, 3000));
 
