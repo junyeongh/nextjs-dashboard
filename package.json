@@ -4,6 +4,7 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
+    "lint": "next lint",
     "format": "pnpx prettier --write .",
     "format:check": "pnpx prettier --check ."
   },
