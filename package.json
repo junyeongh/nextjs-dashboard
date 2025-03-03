@@ -3,7 +3,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "format": "pnpx prettier --write .",
+    "format:check": "pnpx prettier --check ."
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
